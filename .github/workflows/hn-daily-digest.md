@@ -7,7 +7,7 @@ permissions:
       pull-requests: read
 engine: copilot
 network: 
-  allowed: ["hacker-news.firebaseio.com"]
+  allowed: ["defaults", "hacker-news.firebaseio.com"]
 tools:
   github:
     toolsets: [default]
